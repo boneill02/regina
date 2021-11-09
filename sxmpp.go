@@ -31,7 +31,7 @@ func main() {
 	}
 	flag.Parse()
 
-	xmpp.DefaultConfig = tls.Config{
+	xmpp.DefaultConfig = &tls.Config{
 			ServerName:         serverName(*server),
 			InsecureSkipVerify: false,
 	}
