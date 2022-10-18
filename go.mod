@@ -1,4 +1,4 @@
-module github.com/darklands1/sxmpp
+module github.com/boneill02/regina
 
 go 1.17
 

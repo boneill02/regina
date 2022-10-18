@@ -25,7 +25,7 @@ func serverName(host string) string {
 
 func main() {
 	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, "usage: sxmpp [options]\n")
+		fmt.Fprintf(os.Stderr, "usage: regina [options]\n")
 		flag.PrintDefaults()
 		os.Exit(2)
 	}
